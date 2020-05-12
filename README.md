@@ -1,15 +1,26 @@
 ### Date created
-Include the date you created this project and README file.
+5/11/2020
 
 ### Project Title
-Replace the Project Title
+###### Bikeshare
 
 ### Description
-Describe what your project is about and what it does
+This project allows a user to view bike share data from the following cities:
+* Chicago
+* New York City
+* Washington D.C.
+
+Output includes statistics on the following:
+* Most frequent times of travel
+* Most popular stations and trip
+* Total and average trip duration
+* Bikeshare users
 
 ### Files used
-Include the files used
+- bikeshare.py
+- chicago.csv
+- new_york_city.csv
+- washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+None
