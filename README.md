@@ -21,6 +21,8 @@ Output includes statistics on the following:
 * Total and average trip duration
 * Bikeshare users
 
+*Includes option to display raw data 5 lines at a time.*
+
 ### Files used
 - bikeshare.py
 - chicago.csv
