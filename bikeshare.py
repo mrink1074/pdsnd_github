@@ -166,7 +166,7 @@ def user_stats(df):
     print('-'*40)
 
 def display_data(df):
-    i = 0
+    row_index = 0
 
     # show all column names
     pd.options.display.max_columns = None
@@ -177,8 +177,8 @@ def display_data(df):
         if display.lower() != 'yes':
             break
 
-        print(df.iloc[i:i+5])
-        i += 5
+        print(df.iloc[row_index:row_index+5])
+        row_index += 5
 
 def main():
     while True:
