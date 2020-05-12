@@ -173,12 +173,12 @@ def display_data(df):
     pd.options.display.max_rows = None
 
     while True:
-        display = input('\nWould you like to see 5 lines of raw data? Enter yes or no.\n')
+        display = input('\nWould you like to see 10 lines of raw data? Enter yes or no.\n')
         if display.lower() != 'yes':
             break
 
-        print(df.iloc[row_index:row_index+5])
-        row_index += 5
+        print(df.iloc[row_index:row_index+10])
+        row_index += 10
 
 def main():
     while True:
