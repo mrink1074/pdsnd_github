@@ -2,11 +2,15 @@ import time
 import pandas as pd
 import numpy as np
 
+# Mapping of city filter to the appropriate file
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
+# Valid month filters
 MONTHS = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
+
+# Valid day of week filters
 DAYS_OF_WEEK = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'all']
 
 def get_filters():
